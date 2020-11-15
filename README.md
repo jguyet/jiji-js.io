@@ -95,7 +95,7 @@ ji debug
 ````
 
 go to http://localhost:8080
-<img src="https://github.com/jguyet/jiji-ji.io/raw/master/img/captured-jiji-min.gif"/>
+<img src="https://github.com/jguyet/jiji-js.io/raw/master/img/captured-jiji-min.gif"/>
 
 
 ## Build application
