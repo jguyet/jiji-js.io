@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title in="this.title ? this.title : ''">Jiji-js.io</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="/public/css/w3.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="/public/css/font-awesome.min.css">
+        
+        <!-- Markdown -->
+        <script src="/public/remarkable/remarkable.min.js"></script>
+        <!-- https://highlightjs.org/ -->
+        <link rel="stylesheet" href="/public/remarkable/styles/atom-one-dark.min.css">
+        <script src="/public/js/highlight.min.js"></script>
+
+        <!-- fonts -->
+        <link href="/public/fonts/fonts.css" rel="stylesheet">
+
+        <!-- necessary dependencies -->
+        <base href="/"><!-- for rewriting base href -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="./index.js"></script>
+    </head>
+
+    <body>
+        <canvas></canvas>
+        <div class="w3-top">
+            <div class="w3-bar w3-jiji w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-jiji" href="javascript:void(0);" click="globals.myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a link href="/" class="w3-bar-item w3-button w3-jiji logo-family logo-header">Jiji</a>
+              <a href="https://www.facebook.com/jijijs" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-right-item"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+              <a href="https://www.instagram.com/jeremyguyet" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-right-item"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+              <a link href="#twitter" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-right-item"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+              <a link href="/#linkedin" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-right-item"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+              <a touch-link href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
+              <a touch-link href="/about" class="w3-bar-item w3-button w3-padding-large">About</a>
+              <a touch-link href="/getting-started" class="w3-bar-item w3-button w3-padding-large">Getting Started</a>
+              <a touch-link href="/exemples" class="w3-bar-item w3-button w3-padding-large">Examples</a>
+            </div>
+        </div>
+        <!-- jiji router -->
+        <div class="router"></div>
+        <!-- Footer -->
+        <footer class="w3-container w3-center">
+            <div class="w3-xlarge">
+                <a href="https://www.facebook.com/jijijs" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/jeremyguyet" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                <a link href="#twitter" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                <a link href="/#linkedin" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "private": false,
+    "name": "jiji-js.io",
+    "scripts": {
+        "debug": "ji debug",
+        "build": "ji build"
+    },
+    "devDependencies": {
+        "browserify": "^17.0.0",
+        "minify": "^6.0.1"
+    },
+    "dependencies": {
+        "jiji-http-client": "0.0.1",
+        "jiji-js": "0.0.19",
+        "remarkable": "^2.0.1"
+    },
+    "description": "Test",
+    "main": "src/main.index.js"
+}

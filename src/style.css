@@ -1,0 +1,246 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "Lato", sans-serif */
+}
+
+h1, h2, h3 {
+    color: #009688;
+    font-weight: bold;
+}
+
+canvas {
+    position: absolute;
+    background-color: transparent;
+}
+
+.w3-bar,
+h1,
+button {
+    font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,
+.fa-coffee {
+    font-size: 200px
+}
+
+.logo-family {
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.logo-header {
+    font-size: xxx-large;
+    max-height: 70px;
+    top: -28px;
+    position: fixed;
+}
+
+.logo-home {
+    color: white;
+}
+
+.router .route .app-container {
+	margin-top: 43px;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    margin-right: 0.5em;
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-instacart {
+    background-image: url('./public/icon/instacart.svg');
+}
+
+.icon-github {
+    background-image: url('./public/icon/github.svg');
+}
+
+.icon-codersrank {
+    background-image: url('./public/icon/codersrank.svg');
+}
+
+/* vertical menu */
+
+.vertical-menu {
+    width: 200px;
+    border-right: 2px solid #eee;
+  }
+  
+  .vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+/* w3 */
+
+
+
+.w3-bar-item:hover {
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    background-color: transparent!important;
+}
+
+.w3-button-icon {
+    display: inline-flex;
+}
+
+.w3-button-radius {
+    border-radius: 10px;
+}
+
+.w3-bar .w3-bar-item.w3-right-item {
+    padding: 8px 16px;
+    float: right;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.w3-jumbo {
+    overflow: scroll;
+}
+
+.w3-transparent {
+    background-color: transparent!important;
+}
+
+/* @media */
+
+@media (max-width: 1024px) {
+    .router .route .app-container {
+        width: 90%;
+        max-width: 100vw;
+    }
+
+    .router .route {
+        display: inline-block;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .router .route {
+        display: flex;
+    }
+}
+
+
+/* left menu */
+
+.clRrbJ {
+    position: relative;
+    background-color: #f44335;
+    flex: 0 0 250px;
+    overflow-y: scroll;
+    margin-top: 43px;
+    padding: 20px 20px 20px;
+    box-shadow: rgba(51, 51, 51, 0.19) 1px 0px 10px 1px;
+    min-height: 100vh;
+}
+
+.eVPJMi {
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+}
+
+.dWKsDd {
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+.gHzzSn {
+    padding: 5px 10px;
+    margin: 0px 5px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: text-shadow 1s ease 0s;
+    display: block;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .clRrbJ {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .clRrbJ {
+        min-height: auto;
+    }
+
+    p img {
+        max-width: 100%;
+    }
+}
+
+pre {
+	color: #a9b7c6;
+	background: #282b2e;
+	padding-left: 10px;
+    border-radius: 8px;
+    overflow: scroll;
+}
+
+footer {
+    border-top: 1px solid #7c1d83;
+    background-color: white;
+    z-index: 100;
+}
+
+/* THEME COLOR => */
+
+.clRrbJ {
+    background-color: #12425a;
+}
+
+.w3-jiji, .w3-hover-jiji:hover{
+    /* background-color: #f44336!important; red */
+    background-color: #12425a!important;
+}
+
+body {
+    color: white;
+    background-color: #242a2e;
+}
+
+.pre {
+    background: #0c0c0c;
+}
+
+footer {
+    color: black;
+}

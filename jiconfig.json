@@ -1,0 +1,4 @@
+{
+    "device": "browser",
+    "main": "src/index.js"
+}

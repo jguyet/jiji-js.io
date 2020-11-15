@@ -1,5 +1,23 @@
-# Jiji.io
-[Jiji.io](http://jiji-js.io) is site for Jiji documentation.
+<h1 align="center">Jiji-js.io</h1>
+
+<p align="center">
+  <img src="https://github.com/jguyet/jiji-framework-syntax-vsce/raw/master/docs/jiji-framework-logo.png" width="120px" height="120px"/>
+  <br>
+  <i>Jiji-js.io is a desktop web applications for expose documentation
+    <br> of Jiji-js Framework
+    <br> writed with Jiji-js Framework</i>
+  <br>
+  [Live Jiji.io](http://jiji-js.io)
+</p>
+
+<p align="center">
+<a href="https://travis-ci.com/github/jguyet/jiji-js.io">
+<img src="https://travis-ci.com/jguyet/jiji-js.io.svg">
+</a>&nbsp;
+<a href="https://tldrlegal.com/license/mit-license">
+<img src="https://img.shields.io/npm/l/express.svg">
+</a>
+</p>
 
 ## Requirements
 `node >= v10.19.0` 
@@ -12,8 +30,8 @@
 
 ````shell
 src/
-index.html
-main.js
+src/index.html
+src/main.index.js
 ````
 In src directory you are free to manage your js controllers and other js files.
 
@@ -30,11 +48,11 @@ index.html file are the single page of your application projet
     </body>
 </html>
 ````
-main.js file are the main of your application
+main.index.js file are the main of your application
 
 ````js
 const Jiji = require("jiji-js");
-Jiji.initialize("browser", () => {/** code */});
+Jiji.initialize(() => {/** code */});
 ````
 
 ##### Sample Routing structuration :
@@ -42,7 +60,7 @@ Jiji.initialize("browser", () => {/** code */});
 main.js
 ````js
 const Jiji = require("jiji-js");
-Jiji.initialize("browser", () => {
+Jiji.initialize(() => {
     Jiji.Router.init([
         /** array of controller objects */
     ]);
