@@ -7,7 +7,7 @@
     <br> of Jiji-js Framework
     <br> writed with Jiji-js Framework</i>
   <br>
-  [Live Jiji.io](http://jiji-js.io)
+  <a href="https://jiji-js.io">Live Jiji.io</a>
 </p>
 
 <p align="center">
@@ -21,8 +21,8 @@
 
 ## Requirements
 `node >= v10.19.0` 
-`npm cli >= 6.13.4` 
-(Temporarly need (rm, cp, mkdir) command lines)
+`npm cli >= 6.13.4`
+`jiji-cli >= 0.0.20` (`npm install -g jiji-cli`)
 
 ## Development Setup
 
@@ -88,15 +88,20 @@ Jiji.Router.init([
 ...
 ````
 
-
 ## Debug
 
-Work in progress
+````shell
+ji debug
+````
+
+go to http://localhost:8080
+<img src="https://github.com/jguyet/jiji-ji.io/raw/master/img/captured-jiji-min.gif"/>
+
 
 ## Build application
 
 ````shell
-$ npm run compile
+ji build
 ````
 
 ## Issues
